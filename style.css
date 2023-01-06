@@ -1,13 +1,15 @@
-*{
+* {
     font-family: 'Work Sans', sans-serif;
     margin: 0;
 }
+
 /* banner section */
-.banner{
+.banner {
     background-image: url(images/banner/banner2.png);
     background-repeat: no-repeat;
 }
-.banner-txt{
+
+.banner-txt {
     color: #151414;
     font-weight: 700;
     font-size: 60px;
@@ -15,14 +17,16 @@
     text-align: right;
     padding-top: 216px;
 }
-.banner-discription{
+
+.banner-discription {
     color: #444343;
     font-weight: 400;
     font-size: 16px;
     text-align: right;
     margin: 24px 50px 32px 876px;
 }
-.primary-btn{
+
+.primary-btn {
     background: #F15B22;
     color: #FFFFFF;
     border: none;
@@ -32,95 +36,137 @@
     font-size: 20px;
     margin: 0 50px 167px 1300px;
 }
+
 /* My failure section */
-.my-failures{
+.my-failures {
     margin: 130px 250px 130px 150px;
     display: flex;
     align-items: center;
 }
-.failure-description{
-   margin-top: 32px;
-   margin-bottom: 16px;
+
+.failure-description {
+    margin-top: 32px;
+    margin-bottom: 16px;
 }
-.failure-title{
+.failure-title {
     color: #444343;
     font-weight: 700;
     font-size: 40px;
 }
+.li-style{
+    list-style: none;
+}
+
 /* plan section */
-.plan-title{
+.plan-title {
     color: #151414;
     margin-bottom: 32px;
     text-align: center;
     font-weight: 700;
     font-size: 40px;
 }
-.plan-details{
+
+.plan-details {
     display: flex;
     justify-content: space-around;
     padding: 0 100px 0 100px;
     margin: 0 80px 0 80px;
 }
-.web-development,.javascript,.smoking-habit,.ecommerce{
+
+.web-development,
+.javascript,
+.smoking-habit,
+.ecommerce {
     text-align: center;
 }
-.plan{
+
+.plan {
     margin-bottom: 130px;
 }
+
+/* call now section */
+.call{
+  background-image: url(images/gradient2.png), url(images/watch.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 65%;
+  padding: 0 0 30px 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 141px;
+}
+.call-txt{
+    padding: 60px 0 70px 100px;
+}
+.call-title{
+    padding-bottom: 30px;
+}
 /* footer section */
-.footer{
+.footer {
     background-color: #151414;
     width: 1600px;
     height: 577px;
     display: flex;
     justify-content: 50%;
 }
-.future-title{
+
+.future-title {
     color: #F8F8F8;
     font-weight: 700;
     font-size: 45px;
     padding-bottom: 16px;
 }
-.future-div{
+
+.future-div {
     margin: 118px 331px 16px 100px;
 }
-.email{
+
+.email {
     margin-bottom: 16px;
 }
-.phone{
+
+.phone {
     padding-bottom: 32px;
 }
-.future-description,.email,.phone{
+
+.future-description,
+.email,
+.phone {
     color: #F8F8F8;
     margin-bottom: 16px;
 }
-.submit{
+
+.submit {
     padding-right: 300px;
 }
-.sub-title{
+
+.sub-title {
     color: #F8F8F8;
     font-weight: 700;
     font-size: 45px;
-    padding: 150px 50px 32px 0 ;
+    padding: 150px 50px 32px 0;
 }
-.input{
+
+.input {
     color: #F8F8F8;
     padding: 25px 50px;
     margin-bottom: 16px;
     background: #151414;
     border: #F8F8F8 solid 1px;
-    border-radius: 5px;
+    border-radius: 10px;
 }
-::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+
+::placeholder {
     color: #F8F8F8;
     opacity: 1;
 }
-.submit-btn{
+
+.submit-btn {
     background: #F8F8F8;
     color: #F15B22;
     border: none;
     padding: 20px 35px;
-    border-radius: 5px;
+    border-radius: 10px;
     font-weight: 600;
     font-size: 20px;
 }
