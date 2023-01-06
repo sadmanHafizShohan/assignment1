@@ -48,3 +48,79 @@
     font-size: 40px;
 }
 /* plan section */
+.plan-title{
+    color: #151414;
+    margin-bottom: 32px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+}
+.plan-details{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 100px 0 100px;
+    margin: 0 80px 0 80px;
+}
+.web-development,.javascript,.smoking-habit,.ecommerce{
+    text-align: center;
+}
+.plan{
+    margin-bottom: 130px;
+}
+/* footer section */
+.footer{
+    background-color: #151414;
+    width: 1600px;
+    height: 577px;
+    display: flex;
+    justify-content: 50%;
+}
+.future-title{
+    color: #F8F8F8;
+    font-weight: 700;
+    font-size: 45px;
+    padding-bottom: 16px;
+}
+.future-div{
+    margin: 118px 331px 16px 100px;
+}
+.email{
+    margin-bottom: 16px;
+}
+.phone{
+    padding-bottom: 32px;
+}
+.future-description,.email,.phone{
+    color: #F8F8F8;
+    margin-bottom: 16px;
+}
+.submit{
+    padding-right: 300px;
+}
+.sub-title{
+    color: #F8F8F8;
+    font-weight: 700;
+    font-size: 45px;
+    padding: 150px 50px 32px 0 ;
+}
+.input{
+    color: #F8F8F8;
+    padding: 25px 50px;
+    margin-bottom: 16px;
+    background: #151414;
+    border: #F8F8F8 solid 1px;
+    border-radius: 5px;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #F8F8F8;
+    opacity: 1;
+}
+.submit-btn{
+    background: #F8F8F8;
+    color: #F15B22;
+    border: none;
+    padding: 20px 35px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 20px;
+}
